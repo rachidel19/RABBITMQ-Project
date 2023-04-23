@@ -46,7 +46,7 @@ The we created the RABBITMQ instance with the help of docker-composer and the fi
 
 The script .env :
 
-[<img src="Picture2.PNG" alt="Superset">](Picture2.PNG)
+[<img src="Picture2.PNG" alt="Env">]
 
 The script sets environment variables for different database and host IDs and passwords.
 - RABBIT_USER: Sets the username of the RabbitMQ server (an open-source mail server).
