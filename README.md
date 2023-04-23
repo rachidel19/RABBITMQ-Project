@@ -63,18 +63,18 @@ The script sets environment variables for different database and host IDs and pa
 
 * Architecture 
 
-[<img src="Picture1.PNG" alt="Superset">](Picture1.PNG)
+[<img src="Picture1.PNG" alt="Architecture">](Picture1.PNG)
 
 
 # The application
-*The first step: RabbitMR
+* The first step: RabbitMR
 Run the python server.py file to create a connection to the server through a channel so that it can be used by producers and consume.
 -- python server.py
-*The 2nd step :  The web server
+* The 2nd step :  The web server
 Run the python logs-producer.py file to create an exchange and queues. 
 This will then allow the logs to be published in the queues and to be routed correctly using routing_key.
 python logs-producer.py
-*The 3rd step: the SQL database
+* The 3rd step: the SQL database
 Run the python consumer.py file to consume the logs pending in our two queues.
 The logs will then be processed in FIFO (First In First Out) until the 2 queues are empty.
 -- python consumer.py
