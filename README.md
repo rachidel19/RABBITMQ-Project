@@ -31,14 +31,15 @@ pip install -r requirements.txt
 A configuration of the environment variables in the .env file is necessary before the execution of the application.
 Here are the variables to configure:
 * Utilisation du conteneur rabbit MQ
-RABBIT_USER=""   
-RABBIT_PASSWORD=""
+- RABBIT_USER=""   
+- RABBIT_PASSWORD=""
 
 * Utilisation du conteneur MySQL
-DB_NAME=""
-DB_USER=""
-DB_PASSWORD=""
-DB_ROOT_PASSWORD=""
+
+- DB_NAME=""
+- DB_USER=""
+- DB_PASSWORD=""
+- DB_ROOT_PASSWORD=""
 
 # Virtual environment
 We worked in a virtual environment which is a mechanism that allows to separate the dependencies required by different projects by creating virtual environments that are isolated from each other.
